@@ -1,16 +1,16 @@
 # Домашнее задание к лекции «Docker»
 ## Задание 1
 Типовые команды для запуска контейнера
-sudo -i
-docker pull nginx:alpine
-docker build -t mynginx:0.1 .
-docker run -d -p 80:80 mynginx:0.1
+- sudo -i
+- docker pull nginx:alpine
+- docker build -t mynginx:0.1 .
+- docker run -d -p 80:80 mynginx:0.1
 ## Задание 2
 Типовые команды для запуска контейнера c backend-сервером
-sudo -i
-docker pull python:3.9-alpine
-docker build --tag api_server:0.1 .
-docker run -d -p 8000:8000 --name my_api_server api_server:0.1
+- sudo -i
+- docker pull python:3.9-alpine
+- docker build --tag api_server:0.1 .
+- docker run -d -p 8000:8000 --name my_api_server api_server:0.1
 
 
 ### Cами условия задач
