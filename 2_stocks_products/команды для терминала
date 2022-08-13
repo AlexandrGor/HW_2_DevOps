@@ -1,0 +1,4 @@
+sudo -i
+docker pull python:3.9-alpine
+docker build --tag api_server:0.1 .
+docker run -d -p 8000:8000 --name my_api_server api_server:0.1

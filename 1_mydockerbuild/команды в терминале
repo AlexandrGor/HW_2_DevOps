@@ -1,0 +1,4 @@
+sudo -i
+docker pull nginx:alpine
+docker build -t mynginx:0.1 .
+docker run -d -p 80:80 mynginx:0.1
